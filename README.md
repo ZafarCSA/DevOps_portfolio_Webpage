@@ -12,11 +12,51 @@
    request that reqire a dynamic programming languge processor.
 -  In such case, NGINX simply delegates the tasks to seprate process such as PHP-FPM. Node.js or Python.
 
-  -Prerequisite
-  
+  * Prerequisite
+    - Ubuntu SHH Machine - EC2 Instance - Free Tier 
+    - HTML Code
 
+  * Steps to be followed :-
 
+    Connect Ubuntu through SHH
 
+    Update the system with command :
+         - sudo apt-get update
 
+    Install NGINX in the system :
+          - sudo apt install nginx
+      
+    Check NGINX work perfectly in your system :   
+          - systemctl status nginx
 
-http://16.171.141.77/
+    After the check NGINX work properly then restart the NGINX server :
+          - systemctl restart nginx (other way to copy public IP address and paste new chrom window, It run by default running prot 80.)
+          - E.g. - http://16.171.141.77/
+
+    Go to the below mention path, this path is important part of this project when "index.html" file create in this path then website will deploy on port 80.
+          - /var/wwww/html - Root folder
+
+    Create index.html with command :
+          - sudo vim index.html
+
+    Note : Before paste the code change some informations about you.
+           For better experience and undertand the language open the code on Notepad++.
+
+    HTML code where need to change : Two major changes.
+       
+       -  <header>
+                <h1>ZAFAR SAYEED</h1> (write your name here)
+		            <h2>DevOps Engineer Portfolio</h2> (Write your profile name here)
+		            <p>Showcasing my journey in DevOps</p> (Write anything you want to show on your portfolio)
+          </header>
+      
+      - <section id="contact"> 
+        <h2>Contact</h2>
+        <p>Linkedin Id : <a href="www.linkedin.com/in/zafar-sayeed-969840130"> www.linkedin.com/in/zafar-sayeed-969840130 </a></p> (Write your Linkedin Id)
+		    <p>Gmail Id : <a href="mailto:zafar.sayeed2023@gmail.com">zafar.sayeed2023@gmailcom </a></p> (Write your Gmail Id)
+        </section>    
+
+    Last Step Refresh your page.
+
+    Congrestulation ! Your Protfolio has been deployed on Nginx server.
+    
