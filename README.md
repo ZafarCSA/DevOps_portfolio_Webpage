@@ -21,23 +21,29 @@
    		- Connect Ubuntu through SHH
 
     		Update the system with command :
-         		- sudo apt-get update
+
+	   		- sudo apt-get update
 
     		Install NGINX in the system :
-          		- sudo apt install nginx
+
+       			- sudo apt install nginx
       
     		Check NGINX work perfectly in your system :   
-          		- systemctl status nginx
+
+       			- systemctl status nginx
 
     		After the check NGINX work properly then restart the NGINX server :
-          		- systemctl restart nginx (other way to copy public IP address and paste new chrom window, It run by default running prot 80.)
-          		- E.g. - http://16.171.141.77/
+
+       			- systemctl restart nginx (other way to copy public IP address and paste new chrom window, It run by default running prot 80.)
+
+       			- E.g. - http://16.171.141.77/
 
     		Go to the below mention path, this path is important part of this project when "index.html" file create in this path then website will deploy on 		port 80.
           		- /var/wwww/html - Root folder
 
     		Create index.html with command :
-          		- sudo vim index.html
+
+       			- sudo vim index.html
 
     		Note :  Before paste the code change some informations about you.
            		For better experience and undertand the language open the code on Notepad++.
@@ -45,18 +51,19 @@
     		HTML code where need to change : Two major changes.
        
        			- In Headear section chnage the below details.
-
+       
        				- Write your name here
-
-   				- Write your profile name here
-
-   				- Write anything you want to show on your portfolio
+       
+       				- Write your profile name here
+       
+       				- Write anything you want to show on your portfolio
       
-      			- In section change your contact details. 
-
+      			- In section change your contact details.
+       
+       
        				- Write your Linkedin Id
        
-				- Write your Gmail Id
+       				- Write your Gmail Id
         
     		Last Step Refresh your page.
 
