@@ -8,8 +8,12 @@
 -  Its core is a reverse proxy server.
 -  NGINX  is not only webserver on the market, its a biggest competitors is Apache HTTP server (httpd).
 -  NGINX is faster in static content delivery while staying relatively lighter on resources because it dosent embed a dynamic programing language processor.
--  when a request
--  
+-  when a request for static content comes, NGINX simply responds with the file without running any additional process. That dosent mean that NGINX can't handle
+   request that reqire a dynamic programming languge processor.
+-  In such case, NGINX simply delegates the tasks to seprate process such as PHP-FPM. Node.js or Python.
+
+  -Prerequisite
+  
 
 
 
