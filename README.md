@@ -34,9 +34,10 @@
 
     		After the check NGINX work properly then restart the NGINX server :
 
-       			- systemctl restart nginx (other way to copy public IP address and paste new chrom window, It run by default running prot 80.)
+       			- systemctl restart nginx
 
-       			- E.g. - http://16.171.141.77/
+   		(other way to copy public IP address and paste new chrom window, It run by default running prot 80.)
+		- E.g. - http://16.171.141.77/
 
     		Go to the below mention path, this path is important part of this project when "index.html" file create in this path then website will deploy on 		port 80.
           		- /var/wwww/html - Root folder
@@ -58,7 +59,8 @@
        
        				- Write anything you want to show on your portfolio
       
-      			- In section change your contact details.
+
+    			- In section change your contact details.
        
        
        				- Write your Linkedin Id
