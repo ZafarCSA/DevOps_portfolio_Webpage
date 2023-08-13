@@ -44,17 +44,15 @@
 
     HTML code where need to change : Two major changes.
        
-       -  <header>
+       - In Headear section chnage the below details.
                 <h1>ZAFAR SAYEED</h1> (write your name here)
 		            <h2>DevOps Engineer Portfolio</h2> (Write your profile name here)
 		            <p>Showcasing my journey in DevOps</p> (Write anything you want to show on your portfolio)
-          </header>
       
-      - <section id="contact"> 
-        <h2>Contact</h2>
-        <p>Linkedin Id : <a href="www.linkedin.com/in/zafar-sayeed-969840130"> www.linkedin.com/in/zafar-sayeed-969840130 </a></p> (Write your Linkedin Id)
-		    <p>Gmail Id : <a href="mailto:zafar.sayeed2023@gmail.com">zafar.sayeed2023@gmailcom </a></p> (Write your Gmail Id)
-        </section>    
+      - In section change your contact details. 
+        	<p>Linkedin Id : <a href="www.linkedin.com/in/zafar-sayeed-969840130"> www.linkedin.com/in/zafar-sayeed-969840130 </a></p> (Write your Linkedin Id)
+		<p>Gmail Id : <a href="mailto:zafar.sayeed2023@gmail.com">zafar.sayeed2023@gmailcom </a></p> (Write your Gmail Id)
+        
 
     Last Step Refresh your page.
 
