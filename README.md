@@ -8,4 +8,11 @@
 -  Its core is a reverse proxy server.
 -  NGINX  is not only webserver on the market, its a biggest competitors is Apache HTTP server (httpd).
 -  NGINX is faster in static content delivery while staying relatively lighter on resources because it dosent embed a dynamic programing language processor.
--  when a request 
+-  when a request
+-  
+
+
+
+
+
+http://16.171.141.77/
