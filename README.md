@@ -22,7 +22,7 @@
 
     		Update the system with command :
 
-	   		- sudo apt-get update
+	   			- sudo apt-get update
 
     		Install NGINX in the system :
 
